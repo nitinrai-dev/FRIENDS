@@ -26,8 +26,5 @@ and several other libraries.
   - Block user from sending messages
   
   
-```sh
+>## Download [App](https://labs.xda-developers.com/store/app/com.dvlnitins.friends)
 
-[# Download](https://labs.xda-developers.com/store/app/com.dvlnitins.friends)
-
-```
