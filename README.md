@@ -24,3 +24,9 @@ and several other libraries.
 
 - Blocking
   - Block user from sending messages
+  
+  
+## Download Link
+  ```sh
+  https://labs.xda-developers.com/store/app/com.dvlnitins.friends
+  ```
