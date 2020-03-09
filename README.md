@@ -1,5 +1,5 @@
 # FRIENDS
-> A simple android chat app with minimal design.
+> Complete Open Source Real-Time Android Chat Application using Firebase.
 
 FRIENDS is a project that I started to improve my Android Development knowledge.
 Later on I have decided to make it public and open source.
@@ -8,6 +8,8 @@ It uses Firebase's Authentication/Database/Storage/Messaging/CrashReporting libr
 and several other libraries.
 
 ![](header.png)
+
+## Download [App](https://labs.xda-developers.com/store/app/com.dvlnitins.friends)
 
 ## Installation
 ```sh
@@ -26,5 +28,3 @@ and several other libraries.
   - Block user from sending messages
   
   
-## Download [App](https://labs.xda-developers.com/store/app/com.dvlnitins.friends)
-
