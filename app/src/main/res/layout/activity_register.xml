@@ -4,44 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueColor"
+    android:background="@color/colorNewPrimary"
     tools:context=".RegisterActivity">
 
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/bar_layout" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="31dp"
+        app:srcCompat="@drawable/reg_img"/>
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="7dp"
-        android:background="@drawable/login_bg"
-        android:padding="16dp">
-
-        <TextView
-            android:id="@+id/reg_text"
-            android:layout_width="wrap_content"
-            android:layout_height="44dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="180dp"
-            android:fontFamily="@font/montserrat"
-            android:text="Create a new account"
-            android:textColor="@color/blueColor"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/next_panel">
 
         <com.rengwuxian.materialedittext.MaterialEditText
 
             android:id="@+id/username"
             android:layout_width="255dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/reg_text"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:hint="Username"
+            android:layout_marginTop="20dp"
+            android:hint="NAME"
             android:inputType="textCapWords"
+            android:textColor="@color/colorDark"
+            android:textColorHint="@color/colorDark"
+            android:textStyle="bold"
             app:met_floatingLabel="normal" />
 
         <com.rengwuxian.materialedittext.MaterialEditText
@@ -49,11 +41,13 @@
             android:layout_width="255dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/username"
-            android:layout_centerHorizontal="false"
-            android:layout_marginLeft="28dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
             android:hint="Email"
             android:inputType="textEmailAddress"
+            android:textColor="@color/colorDark"
+            android:textColorHint="@color/colorDark"
+            android:textStyle="bold"
             app:met_floatingLabel="normal" />
 
         <com.rengwuxian.materialedittext.MaterialEditText
@@ -61,11 +55,13 @@
             android:layout_width="255dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/email"
-            android:layout_centerHorizontal="false"
-            android:layout_marginLeft="28dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
             android:hint="Password"
             android:inputType="textPassword"
+            android:textColor="@color/colorDark"
+            android:textColorHint="@color/colorDark"
+            android:textStyle="bold"
             app:met_floatingLabel="normal" />
 
         <Button
@@ -74,13 +70,14 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/password"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:background="@color/OrangeColor"
+            android:background="@drawable/btn_secondary"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/montserrat"
             android:text="register"
-            android:textColor="#fff"
+            android:textColor="@color/colorNewAccent"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:transitionName="myRegister"/>
 
 
     </RelativeLayout>

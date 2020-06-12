@@ -16,7 +16,7 @@
         android:layout_marginStart="237dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:popupTheme="@style/MenuStyle">
 
         <de.hdodenhof.circleimageview.CircleImageView

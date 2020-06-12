@@ -39,11 +39,6 @@ public class RegisterActivity  extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         mRegProgress = new ProgressDialog(this);
 
         username = findViewById(R.id.username);
@@ -111,7 +106,7 @@ public class RegisterActivity  extends AppCompatActivity {
                             });
                         } else {
                             mRegProgress.hide();
-                            Toast.makeText(RegisterActivity.this, "You can't register woth this email or password", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "You can't register with this email or password", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

@@ -31,12 +31,13 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/txt_seen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txt_seen"
             android:layout_below="@id/show_message"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:textColor="@color/colorAccent" />
 
     </RelativeLayout>
 

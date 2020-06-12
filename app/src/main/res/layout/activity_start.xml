@@ -4,57 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorNewPrimary"
     tools:context=".StartActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="410dp"
-        android:layout_alignParentStart="true"
+        android:layout_height="297dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="53dp"
         android:layout_marginBottom="31dp"
-        app:srcCompat="@drawable/start" />
+        app:srcCompat="@drawable/start_img"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/curve_bg">
-
+        android:background="@drawable/start_panel">
+z
         <Button
             android:id="@+id/register"
             android:layout_width="150dp"
-            android:layout_height="75dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="36dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginBottom="26dp"
-            android:layout_toEndOf="@+id/login"
-            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/btn_secondary"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="CREATE A NEW ACCOUNT"
-            android:textColor="@android:color/white"
-            android:textStyle="bold" />
+            android:text="REGISTER"
+            android:textColor="@color/colorNewAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:transitionName="myRegister" />
 
         <Button
             android:id="@+id/login"
             android:layout_width="150dp"
-            android:layout_height="75dp"
+            android:layout_height="55dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
             android:layout_marginStart="35dp"
-            android:layout_marginBottom="27dp"
-            android:backgroundTint="@color/blueColor"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/btn_primary"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="ALREADY HAVE ACCOUNT"
-            android:textColor="@android:color/white"
-            android:textStyle="bold" />
+            android:text="LOGIN"
+            android:textColor="@color/colorNewAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:transitionName="myLogin" />
     </RelativeLayout>
 
     <TextView

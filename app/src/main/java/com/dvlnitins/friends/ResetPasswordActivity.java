@@ -3,6 +3,7 @@ package com.dvlnitins.friends;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,10 +28,6 @@ public class ResetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Reset Password");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         send_email = findViewById(R.id.send_email);
         btn_reset = findViewById(R.id.btn_reset);

@@ -33,19 +33,20 @@
         android:layout_toRightOf="@id/profile_image"
         android:fontFamily="@font/montserrat"
         android:text="username"
-        android:textColor="@color/blueColor"
+        android:textColor="@color/colorDark"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/last_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignWithParentIfMissing="false"
         android:layout_below="@id/username"
-        android:layout_alignStart="@id/username"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@id/username"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="150dp"
         android:fontFamily="@font/spectral"
+        android:inputType="textCapWords"
         android:textColor="@color/white" />
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -53,7 +54,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_alignBottom="@id/profile_image"
-        android:layout_marginLeft="-15dp"
+        android:layout_marginStart="-15dp"
         android:layout_toEndOf="@id/profile_image"
         android:src="@mipmap/ic_launcher"
         android:visibility="gone"

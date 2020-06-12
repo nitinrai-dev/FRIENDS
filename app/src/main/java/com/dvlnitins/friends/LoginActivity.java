@@ -3,6 +3,7 @@ package com.dvlnitins.friends;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityOptionsCompat;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -34,11 +35,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         mLoginProgress = new ProgressDialog(this);
 
         auth = FirebaseAuth.getInstance();
@@ -51,7 +47,11 @@ public class LoginActivity extends AppCompatActivity {
         forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
+                Intent intent = new Intent(LoginActivity.this, ResetPasswordActivity.class);
+
+                ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(LoginActivity.this,findViewById(R.id.forgot_password), "myLogin");
+
+                startActivity(intent, optionsCompat.toBundle());
             }
         });
 

@@ -14,7 +14,6 @@
         android:layout_width="403dp"
         android:layout_height="403dp"
         android:layout_marginStart="6dp"
-        android:layout_marginLeft="-10dp"
         android:layout_marginTop="48dp"
         android:src="@drawable/pbg" />
 
@@ -41,7 +40,7 @@
             android:layout_marginBottom="20dp"
             android:fontFamily="@font/montserrat"
             android:text="username"
-            android:textColor="@color/blueColor"
+            android:textColor="@color/colorDark"
             android:textSize="24sp"
             android:textStyle="bold" />
 
