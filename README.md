@@ -7,7 +7,7 @@ Later on I have decided to make it public and open source.
 It uses Firebase's Authentication/Database/Storage/Messaging/CrashReporting libraries for it's implementation
 and several other libraries.
 
-![](header.png)
+![](Mobile_UI.png)
 
 ## Download [App](https://labs.xda-developers.com/store/app/com.dvlnitins.friends)
 
