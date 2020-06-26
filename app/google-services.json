@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "480735044161",
+    "firebase_url": "https://friends-a2f66.firebaseio.com",
+    "project_id": "friends-a2f66",
+    "storage_bucket": "friends-a2f66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480735044161:android:8fc4f158392f2701f6dcc0",
+        "android_client_info": {
+          "package_name": "com.dvlnitins.friends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480735044161-gg0t9k4r53omk3tdaiubh4kbdpqqp7fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dvlnitins.friends",
+            "certificate_hash": "b902b808cf96882b0427b57d9718b5109997e7b7"
+          }
+        },
+        {
+          "client_id": "480735044161-c082d2gj3mc3s6rg8ljnlbiu8n8ppae9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBlwA9_QZAhftsRYB4kt3OtDGiT_Z9PiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480735044161-c082d2gj3mc3s6rg8ljnlbiu8n8ppae9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
