@@ -1,3 +1,7 @@
+<div align="center">
+  <img alt="Logo" src="https://github.com/dvlnitins/FRIENDS/blob/master/app/src/main/res/drawable-xhdpi/default_avatar.png" width="100" />
+</div>
+
 # FRIENDS
 > Complete Open Source Real-Time Android Chat Application using Firebase.
 
@@ -9,7 +13,7 @@ and several other libraries.
 
 ![](Mobile_UI.png)
 
-## Download [App](https://labs.xda-developers.com/store/app/com.dvlnitins.friends)
+## Download [APP](https://github.com/dvlnitins/FRIENDS/releases/download/v0.314-beta/FRIENDS-CHAT.apk)
 
 ## Installation
 ```sh
